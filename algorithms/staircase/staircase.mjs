@@ -1,3 +1,5 @@
+// See: https://www.hackerrank.com/challenges/staircase/problem
+
 function staircase(n) {
   let str = '';
   let spacer = ' ';
