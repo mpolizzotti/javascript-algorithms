@@ -1,3 +1,9 @@
+// Prime numbers are natural numbers that are divisible by only 1 and the number itself.
+// In other words, prime numbers are positive integers greater than 1 with exactly two
+// factors, 1 and the number itself.
+
+// 0, 1 and numbers less then 0 are not prime numbers.
+
 const isPrime = (n) => {
   // Check if number is an integer.
   // Any integer % 1 will equal 0.
