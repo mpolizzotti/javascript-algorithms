@@ -19,22 +19,6 @@ const memoFibonacci = (n, memo) => {
   return result;
 };
 
-memoFibonacci(5, {});
-console.log(counter);
-counter = 0;
-
-memoFibonacci(6, {});
-console.log(counter);
-counter = 0;
-
-memoFibonacci(10, {});
-console.log(counter);
-counter = 0;
-
-memoFibonacci(20, {});
-console.log(counter);
-counter = 0;
-
 memoFibonacci(30, {});
 console.log(counter);
 counter = 0;
