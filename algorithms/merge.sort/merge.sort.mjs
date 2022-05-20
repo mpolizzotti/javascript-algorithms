@@ -22,11 +22,16 @@ const mergeSort = (arr) => {
     leftArrIndex < leftSortedArr.length ||
     rightArrIndex < rightSortedArr.length
   ) {
-    if (
-      leftArrIndex >= leftSortedArr.length ||
-      leftSortedArr[leftArrIndex] > rightSortedArr[rightArrIndex]) {
-        mergedArr.push(rightSortedArr[rightArrIndex]);
-        rightArrIndex++;
+
+    if (leftArrIndex >= leftSortedArr.length) {
+      mergedArr.push(rightSortedArr[rightArrIndex]);
+      rightArrIndex++;
+    } else if (rightArrIndex >= rightSortedArr.length) {
+      mergedArr.push(leftSortedArr[leftArrIndex]);
+      leftArrIndex++;
+    } else if (leftSortedArr[leftArrIndex] > rightSortedArr[rightArrIndex]) {
+      mergedArr.push(rightSortedArr[rightArrIndex]);
+      rightArrIndex++;
     } else {
       mergedArr.push(leftSortedArr[leftArrIndex]);
       leftArrIndex++;
