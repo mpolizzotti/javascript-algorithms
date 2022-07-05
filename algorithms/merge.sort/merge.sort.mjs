@@ -41,4 +41,10 @@ const mergeSort = (arr) => {
   return mergedArr;
 };
 
+// Space Complexity: O(n) Linear Space Complexity
+// The number of elements that get added to memory grows
+// exponentially.
+
+// Reason: Nested function calls with new values being created.
+
 export default mergeSort;

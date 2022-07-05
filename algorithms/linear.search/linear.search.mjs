@@ -22,4 +22,7 @@ const findElementInObject = (arr, comparatorFn) => {
 
 // Time Complexity: O(n)
 
+// Space Complexity: O(1) Constant Space Complexity
+// Reason: No new "permanent" values are created during the iteration.
+
 export { findElementIndex, findElementInObject }
