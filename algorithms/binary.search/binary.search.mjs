@@ -26,4 +26,6 @@ const findElementIndex = (sortedArr, element) => {
     return -1;
 };
 
+// Space complexity: O(1) Constant
+
 export default findElementIndex;

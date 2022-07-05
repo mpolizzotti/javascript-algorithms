@@ -24,4 +24,7 @@ const bubbleSort = (arr) => {
   return sorted;
 };
 
+// Space Complexity: O(1) Constant Space Complexity
+// Reason: No new "permanent" values are created during the iteration.
+
 export default bubbleSort;
