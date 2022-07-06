@@ -22,4 +22,8 @@ const getPermutationsWithoutRepetition = (options) => {
   return permutations;
 };
 
+// Time Complexity: O(n!)
+// For 4 items in our list, our output array has 24 items.
+// For 5 items in our list, our output array has 120 items.
+// Factorial time complexity. Grows very fast.
 export default getPermutationsWithoutRepetition;
