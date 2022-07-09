@@ -16,9 +16,9 @@ const getPermutationsWithRepetition = (options, length) => {
   return permutations;
 };
 
-const digits = [1, 2, 3, 4];
-const resultLength = 4;
-console.log(getPermutationsWithRepetition(digits, resultLength).length)
+// const digits = [1, 2, 3, 4];
+// const resultLength = 4;
+// console.log(getPermutationsWithRepetition(digits, resultLength).length)
 
 // Time Complexity: O(n^r)
 
