@@ -61,4 +61,12 @@ const knapsack = (items, capacity, itemIndex) => {
   return knapsackFn(items, capacity, itemIndex, memo);
 };
 
+const items = [
+  { name: 'a', value: 3, weight: 3 },
+  { name: 'b', value: 6, weight: 8 },
+  { name: 'c', value: 10, weight: 3 },
+]
+const maxCapacity = 8;
+console.log(knapsack(items, maxCapacity, items.length - 1));
+
 export default knapsack;
