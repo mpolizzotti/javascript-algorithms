@@ -106,3 +106,6 @@ dist
 # Directories
 big.o.notation
 .vscode/
+
+# Spreadsheet
+leetcode.75.numbers

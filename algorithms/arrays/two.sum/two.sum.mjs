@@ -1,9 +1,6 @@
 /**
  * Solution for twoSum Challenge.
  * see: https://leetcode.com/problems/two-sum/
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
  */
 const twoSum = (nums, target) => {
   let isTargetSumFound = false;
@@ -28,18 +25,32 @@ const twoSum = (nums, target) => {
   return indices;
 };
 
+// Time Complexity: O(n^2) or Quadratic time.
+
 const twoSumWithMap = (nums, target) => {
   let map = new Map();
 
-  for(let i = 0; i < nums.length; i ++) {
-    if (map.has(target - nums[i])) {
-        return [map.get(target - nums[i]), i];
+  for (let i = 0; i < nums.length; i++) {
+    const targetMinusValue = target - nums[i];
+    if (map.has(targetMinusValue)) {
+      return [map.get(targetMinusValue), i];
     } else {
-        map.set(nums[i], i);
+      map.set(nums[i], i);
     }
   }
 
   return [];
 }
+
+// Time Complexity: O(n) or Linear time.
+
+// Explanation:
+// const nums = [11, 15, 2, 7];
+// const target = 9;
+
+// 2 + 7 = 9
+// 9 - 2 = 7
+// 2 is the only number added to 7 to equal the target of 9.
+// We don't need check every number, we just need to know if 7 exists.
 
 export { twoSum, twoSumWithMap };
