@@ -1,5 +1,6 @@
 /**
  * Solution for Buy And Sell Stock Challenge.
+ * Category: "Two Pointers"
  * see: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
  */
 const maxProfit = (prices) => {
