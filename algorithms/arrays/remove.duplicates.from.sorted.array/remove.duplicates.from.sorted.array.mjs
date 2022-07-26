@@ -18,8 +18,8 @@ const removeDuplicates = (numbers) => {
 };
 
 // const numbers = [0,0,1,1,1,2,2,3,3,4];
-const numbers = [1,2,3];
+// const numbers = [1,2,3];
 // const numbers = [1];
-console.log(removeDuplicates(numbers));
+// console.log(removeDuplicates(numbers));
 
 export default removeDuplicates;
