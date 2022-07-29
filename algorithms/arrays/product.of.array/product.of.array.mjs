@@ -1,3 +1,8 @@
+/**
+ * Solution for Product of Array Except Self.
+ * Category: "Array", "Prefix Sum"
+ * see: https://leetcode.com/problems/product-of-array-except-self/
+ */
 const productOfArrayExceptSelf = (nums) => {
   const result = new Array(nums.length);
   let prefix = 1;
