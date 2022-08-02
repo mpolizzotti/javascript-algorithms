@@ -1,3 +1,8 @@
+/**
+ * Solution for Container With Most Water.
+ * Category: "Array", "Two Pointers"
+ * see: https://leetcode.com/problems/container-with-most-water/
+ */
 const maxArea = (height) => {
   let l = 0;
   let r = height.length - 1; // 8
