@@ -1,3 +1,7 @@
+/**
+ * Solution for Find Target Indices After Sorting Array
+ * see: https://leetcode.com/problems/find-target-indices-after-sorting-array/
+ */
 const targetIndicesBruteForce = (nums, target) => {
   const sorted = nums.sort((a, b) => a - b);
   const result = [];
