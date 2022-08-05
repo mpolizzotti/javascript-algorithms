@@ -21,4 +21,4 @@ const containsDuplicateWithMap = (nums) => {
 // const nums = [1,2,3,1];
 // console.log(containsDuplicateHashSet(nums));
 
-export { containsDuplicate, containsDuplicateHashSet };
+export { containsDuplicate, containsDuplicateWithMap };

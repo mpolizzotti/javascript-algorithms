@@ -1,3 +1,7 @@
+/**
+ * Solution for Unique Number of Occurrences
+ * see: https://leetcode.com/problems/unique-number-of-occurrences/
+ */
 const uniqueOccurrences = (arr) => {
   const map = {};
 

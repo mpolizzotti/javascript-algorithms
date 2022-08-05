@@ -1,5 +1,4 @@
-import maximumSubarray from './maximumSubarray.mjs';
-
+import maximumSubarray from './maximum.subarray.mjs';
 
 describe('maximumSubarray', () => {
   it('should return the sum of the largest contiguous subarray', () => {

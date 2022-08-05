@@ -1,4 +1,4 @@
-import moveZeros from './moveZeros.mjs';
+import moveZeros from './move.zeros.mjs';
 
 describe('moveZeros', () => {
   it('should move all zeros to end of array', () => {
