@@ -40,7 +40,7 @@ var numberOfMatchesWithWhileLoop = function(n) {
   return matches;
 };
 
-const teams = 7;
-console.log(numberOfMatchesWithRecursion(teams));
+// const teams = 7;
+// console.log(numberOfMatchesWithRecursion(teams));
 
 export { numberOfMatchesWithRecursion, numberOfMatchesWithWhileLoop };
